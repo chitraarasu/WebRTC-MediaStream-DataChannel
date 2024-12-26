@@ -13,7 +13,7 @@ class ChatApp extends StatelessWidget {
   ChatApp({super.key});
 
   // signalling server url
-  final String websocketUrl = "https://93ff-2405-201-e029-d172-5da-c4d7-b037-aae5.ngrok-free.app";
+  final String websocketUrl = "https://8feb-2405-201-e029-d172-5da-c4d7-b037-aae5.ngrok-free.app";
 
   // generate callerID of local user
   final String selfCallerID =
@@ -29,6 +29,7 @@ class ChatApp extends StatelessWidget {
 
     // return material app
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       darkTheme: ThemeData.dark().copyWith(
         useMaterial3: true,
         colorScheme: const ColorScheme.dark(),

@@ -52,7 +52,7 @@ class _JoinScreenState extends State<JoinScreen> {
       backgroundColor: Theme.of(context).colorScheme.background,
       appBar: AppBar(
         centerTitle: true,
-        title: const Text("P2P Call App"),
+        title: const Text("P2P Chat App"),
       ),
       body: SafeArea(
         child: Stack(
